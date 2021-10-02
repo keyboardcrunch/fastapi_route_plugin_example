@@ -1,4 +1,4 @@
-# FastAPI Route Plugin Framework
+# FastAPI Route Plugin Example
 
 This repository contains a working example for automatically importing 'plugins' to extend FastAPI routes.
 
