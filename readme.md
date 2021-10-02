@@ -5,6 +5,15 @@ This repository contains a working example for automatically importing 'plugins'
 ## Usage
 
 You can extend main.py however you choose, but plugin files can be named anything but must have a FastAPI *APIRouter()* defined as *router*.
+```
+from fastapi import APIRouter
+
+router = APIRouter()
+
+@router.get("/test")
+async def tester():
+    return [{"result": "test"}]
+```
 
 To run the sample:
 ```
